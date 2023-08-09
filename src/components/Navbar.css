@@ -1,0 +1,24 @@
+.nav{
+    background: #0D47A1;
+    color: white;
+    padding: 2vw 0;
+    position: relative;
+    top: 0;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    width: 65vw;
+    margin: 0 auto;
+}
+.nav-li{
+    list-style: none;
+    display: inline;
+}
+.lang{
+    border: none;
+    background: #000;
+    color: white;
+    border-radius: 3vw;
+    padding: 0.3vw 1vw;
+}
