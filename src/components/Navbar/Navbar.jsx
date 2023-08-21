@@ -1,13 +1,21 @@
 import './Navbar.css';
+import { langContext, langfContext } from '../../App';
+import { useContext } from 'react';
+
 
 const Navbar = () => {
+
+    
+    const lang = useContext(langContext)
+    const langf = useContext(langfContext)
+
     return (
         <div className='nav'>
 
             <ul className="nav-ul">
 
                 <select className='lang' name="language" id="lang">
-                    <option value="volvo">persian</option>
+                    <option  >persian</option>
                     <option value="volvo">english</option>
                 </select>
 
