@@ -29,7 +29,7 @@ function App() {
       <langContext.Provider  value={language} >
       <langfContext.Provider  value={setlanguage} >
 
-      { mobile ? <MobNav /> : <Navbar/> }
+      {/* { mobile ? <MobNav /> : <Navbar/> } */}
  
  <Landing/>
 

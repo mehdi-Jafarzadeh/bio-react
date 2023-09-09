@@ -14,9 +14,9 @@ const Navbar = () => {
 
             <ul className="nav-ul">
 
-                <select className='lang' name="language" id="lang">
-                    <option  >persian</option>
-                    <option value="volvo">english</option>
+                <select className='lang' name={lang} id="lang">
+                    <option value={"fa"} >persian</option>
+                    <option value={"en"} >english</option>
                 </select>
 
                 <li className="nav-li">بیوگرافی</li>
